@@ -1,0 +1,26 @@
+.basket__description {
+    position: absolute;
+    z-index: 3;
+    right: 0;
+    top: 40px;
+    background: white;
+    width: max-content;
+    padding: 20px;
+    border: 1px solid #ebebeb;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.basket__description-header {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 10px;
+}
+
+.basket__description-total {
+    font-weight: bold;
+    text-align: right;
+}
